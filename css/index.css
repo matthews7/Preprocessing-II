@@ -330,3 +330,17 @@ img {
   text-align: center;
   padding: 5% 0;
 }
+.btn:hover {
+  animation: slide 5s infinite;
+}
+@keyframes slide {
+  0%,
+  100% {
+    background-color: #17A2B8;
+    color: #FFFFFF;
+  }
+  50% {
+    background-color: #FFFFFF;
+    color: #17A2B8;
+  }
+}
